@@ -45,11 +45,11 @@ The project solely relies on the NumPy library for numerical computations. No ex
 
 ## Training Results
 ##### Generative Adversarial Network .
-Despite the use of dense layers instead of CNNs and the lack of regularization, you can see clear numbers at the end. I also noticed during the training that the model tends to mode colappse, generating more and more ones, which basically seems like a logical decision since it is the simplest number to generate.
+Despite the use of dense layers instead of CNNs and the lack of regularization, you can see clear numbers at the end. I also noticed during the training that the model tends to mode collapse, generating more and more ones, which basically seems like a logical decision since it is the simplest number to generate.
 
 ![GAN Training](readme_files/gan_training.gif)
 ##### Classifier.
-The model was evaluated on the entire validation dataset (10,000 images) at each epoch. In the 470 epoch, the model achieved an incredible 98.3% accuracy on validation data.
+The model was evaluated on the entire validation dataset (10,000 images) at each epoch. At epoch 470, the model achieved an incredible 98.3% accuracy on validation data.
 
 ![Classifier Training](readme_files/classifier.png)
 ## License
