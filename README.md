@@ -1,3 +1,15 @@
+ **⚠️ ARCHIVED PROJECT (Educational Research)**
+>
+> This repository documents my early journey into the mathematics of Deep Learning.
+> **Key Achievement:** I implemented a custom **Autograd Engine** and **Backpropagation** algorithm from scratch using only NumPy (no PyTorch/TensorFlow).
+>
+> **Why this matters:**
+> *   Built a fully functional **Mini-Framework** capable of training unstable architectures like GANs.
+> *   Manually handled gradient calculations and numerical stability issues.
+> *   Proves a foundational understanding of the Calculus behind Neural Networks.
+
+
+
 # MNIST Generative Adversarial Network (GAN) and Classifier using NumPy
 
 This repository contains the implementation of a Generative Adversarial Network (GAN) and a classifier for the MNIST dataset using only the NumPy library.
